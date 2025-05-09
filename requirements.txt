@@ -1,9 +1,5 @@
-plotly
 streamlit
 pandas
+matplotlib
 plotly
 numpy
-matplotlib
-scikit-learn
-jupyter
-kaggle
