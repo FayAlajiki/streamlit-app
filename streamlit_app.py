@@ -121,9 +121,9 @@ def _safe_read_csv(path_or_url: str) -> pd.DataFrame:
 @st.cache_data
 def clean_data(uploaded_files=None):
     # define your auto‑load URLs
-    mql_url   = st.secrets.get("MQL_URL",   "https://raw.githubusercontent.com/adewoye-saheed-dML/Olist_sales_funnel_app/main/olist_marketing_qualified_leads_dataset.csv")
-    cld_url   = st.secrets.get("CLD_URL",   "https://raw.githubusercontent.com/adewoye-saheed-dML/Olist_sales_funnel_app/main/olist_closed_deals_dataset.csv")
-    order_url = st.secrets.get("ORDER_URL", "https://raw.githubusercontent.com/adewoye-saheed-dML/Olist_sales_funnel_app/main/olist_orders_dataset.csv")
+    mql_url   = st.secrets.get("MQL_URL",   "https://raw.githubusercontent.com/FayAlajiki/streamlit-app/main/olist_marketing_qualified_leads_dataset.csv")
+    cld_url   = st.secrets.get("CLD_URL",   "https://raw.githubusercontent.com/FayAlajiki/streamlit-app/main/olist_closed_deals_dataset.csv")
+    order_url = st.secrets.get("ORDER_URL", "https://raw.githubusercontent.com/FayAlajiki/streamlit-app/main/olist_orders_dataset.csv")
 
     if not uploaded_files:
         uploaded_files = [mql_url, cld_url, order_url]
