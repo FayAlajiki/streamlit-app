@@ -1,6 +1,6 @@
 **Sales Funnel Analyzer Project**
 
-<img width="703" height="324" alt="image" src="https://github.com/user-attachments/assets/fce63852-baff-4af3-a5dc-7d4483f20616" />
+<img width="700" height="365" alt="image" src="https://github.com/user-attachments/assets/6f7803c4-085c-4714-bf5b-581ad1f95632" />
 
 
 **Executive Summary**
